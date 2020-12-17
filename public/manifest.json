@@ -1,0 +1,45 @@
+{
+  "name": "Lodkolven 2",
+  "short_name": "Styrelsen",
+  "start_url": "/",
+  "background_color": "#fef6e8",
+  "theme_color": "#660200",
+  "orientation": "any",
+  "display": "standalone",
+  "dir": "ltr",
+  "lang": "en-US",
+  "description": "Brf Lodkolven 2",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "./img/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+     {
+            "src": "./img/icons/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/img/icons//android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+    {
+      "src": "./img/icons/icon-256x256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+     {
+      "src": "./img/icons/icon-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "./img/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
