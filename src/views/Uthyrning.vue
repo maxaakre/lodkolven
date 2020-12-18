@@ -6,7 +6,7 @@
     <p>Förfrågan till styrelsen om ni planerar att hyra ut er lägenhet i andra hand ska ske genom att ifylld blankett ska läggas i Brf Lödkolven 2:s brevlåda och på <span><a href="mailto:brflodkolven2@gmail.com?Subject=Some%20subject">Mail.</a></span></p>
     <a href="https://drive.google.com/open?id=1hKVEPVh23L9ObZk8r9RxPDVbBWttHdxf" target="_blank">Ansökningsblankett</a>
     <p>Ansökan är godkänd först när styrelsen har beviljat den skriftligen.</p>
-    <h3>föreningens policy vida andrahandsthyrning av bostad</h3>
+    <h3>Föreningens policy vida andrahandsthyrning av bostad</h3>
     <p>Bostadsrättsföreningen Lödkolven 2 har till ändamål (stadgarna § 14) att främja medlemmarnas ekonomiska intressen genom att i föreningens hus upplåta bostadslägenheter och lokaler till nyttjande och utan begränsning i tiden. Med hänsyn tagen till vad som är föreskrivet i Hyreslagen, Bostadsrättslagen och Brf Lödkolven 2:s stadgar har styrelsen fastställt följande policy vid fråga om andrahandsupplåtelse:</p>
   </div>
     <ol type="1">

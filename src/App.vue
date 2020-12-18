@@ -34,6 +34,9 @@ export default {
   p{
     font-size:18px ;
   }
+ a.router-link-exact-active, button.router-link-exact-active{
+   color: #ff9900;
+ }
 }
 body {
   font-family: Roboto, Helvetica, sans-serif;

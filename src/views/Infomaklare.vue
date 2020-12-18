@@ -53,6 +53,9 @@ export default {
     padding: 1rem;
     text-align: left;
     overflow: scroll;
+      h1{
+      padding: 1rem 0;
+  }
     h2{
         
         padding: 1rem 0;
@@ -78,6 +81,9 @@ export default {
     .wrapper{
         overflow: scroll;
         text-align: left;
+          h1{
+      padding: 1rem 0 4rem;
+  }
         h2{
             margin: 0;
         }

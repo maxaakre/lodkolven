@@ -80,6 +80,7 @@ a{
 a{ 
     padding: 1rem 0;  
     margin: 0;
+    font-size: 24px;
 }
   .info {
     text-align: left;
@@ -93,8 +94,8 @@ a{
     text-align: left;
     padding: 0;
   }
-  dt{
-    font-size: 20px;
+  dt,h3{
+    font-size: 24px;
   }
 }
 </style>
