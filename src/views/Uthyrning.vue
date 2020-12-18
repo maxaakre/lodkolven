@@ -1,11 +1,14 @@
 <template>
 <div class="wrapper">
+  <div class="over">
+
     <h1>Andrahandsuthyrning</h1>
-    <p>Förfrågan till styrelsen om ni planerar att hyra ut er lägenhet i andra hand ska ske genom att ifylld blankett ska läggas i Brf Lödkolven 2:s brevlåda och på <a href="mailto:brflodkolven2@gmail.com?Subject=Some%20subject">Mail.</a></p>
+    <p>Förfrågan till styrelsen om ni planerar att hyra ut er lägenhet i andra hand ska ske genom att ifylld blankett ska läggas i Brf Lödkolven 2:s brevlåda och på <span><a href="mailto:brflodkolven2@gmail.com?Subject=Some%20subject">Mail.</a></span></p>
     <a href="https://drive.google.com/open?id=1hKVEPVh23L9ObZk8r9RxPDVbBWttHdxf" target="_blank">Ansökningsblankett</a>
     <p>Ansökan är godkänd först när styrelsen har beviljat den skriftligen.</p>
     <h3>föreningens policy vida andrahandsthyrning av bostad</h3>
     <p>Bostadsrättsföreningen Lödkolven 2 har till ändamål (stadgarna § 14) att främja medlemmarnas ekonomiska intressen genom att i föreningens hus upplåta bostadslägenheter och lokaler till nyttjande och utan begränsning i tiden. Med hänsyn tagen till vad som är föreskrivet i Hyreslagen, Bostadsrättslagen och Brf Lödkolven 2:s stadgar har styrelsen fastställt följande policy vid fråga om andrahandsupplåtelse:</p>
+  </div>
     <ol type="1">
       <li>En bostadsrättshavare får upplåta sin lägenhet i andra hand endast om styrelsen givit sitt tillstånd. Tillståndet ska inhämtas av bostadsrättshavaren innan upplåtelsen sker eller avtal om andrahandsupplåtelse träffas.</li>
       <li>Ansökan ska lämnas skriftligen på särskild blankett som finns på föreningens hemsida www.brflodkolven2.se. Ifylld ansökan ska lämnas i föreningens brevlåda som finns i entèn. </li>
@@ -50,18 +53,78 @@ export default {
 
 <style lang="scss" scoped>
 .wrapper{
+  display: flex;
+  flex-direction: column;
   overflow:scroll;
-}
-h1 {
   text-align: left;
   padding: 1rem;
+  .over{
+    padding: 1rem 0;
+    letter-spacing: 1%;
+  }
 }
+
+h1,h3,h4,p {
+  text-align: left;
+  padding: 1rem;
+  word-break: break-all;
+}
+span a{
+
+  padding: 0;
+}
+a{
+  padding: 1rem ;
+}
+h2{
+  padding: 1rem;
+}
+h4{
+  padding: 1rem 0;
+}
+p{
+  margin: auto;
+}
+ol{
+  padding: 1rem 0;
+}
+li{
+  margin:auto 1rem;
+  padding: 1rem;
+}s
 .download {
   display: flex;
   padding: 1rem;
   &hover {
     color: rgb(128, 128, 128);
   }
+}
+@media screen and (min-width: 1024px){
+.wrapper{
+  padding: 1rem;
+  text-align: left;
+}
+h1,h3,h4,p,a {
+  text-align: left;
+  letter-spacing: 1%;
+}
+h1{
+  padding: 1rem;
+  text-align: left;
+}
+h2{
+  text-align: left;
+}
+ol{
+  padding: 1rem;
+}
+li{
+  margin: 0 2rem;
+  padding: .5rem 3rem;
+}
+}
+h4{
+  padding: 0 1rem;
 }
 
 </style>

@@ -1,7 +1,7 @@
 <template>
 <div class="contact">
 
-  <h1>Kontakt oss på styrelse mailen</h1>
+  <h1>Kontakta styrelsen på mailen</h1>
    <a href="mailto:brflodkolven2@gmail.com?Subject=Some%20subject">
             <i class="far fa-envelope">brflodkolven2@gmail.com</i>
    </a>
@@ -21,11 +21,11 @@
         <dd>
           <h3>Gunnar Stenberg</h3>
         </dd>
-        <dt>Suppleant</dt>
+        <dt>Suppleant:</dt>
         <dd>
           <h3>Gustaf Hassel</h3>
         </dd>
-        <dt>Suppleant</dt>
+        <dt>Suppleant:</dt>
         <dd>
          <h3>Emma Nilsson</h3>
         </dd>
@@ -45,32 +45,26 @@ export default {
 .contact{
     display: flex;
     flex-direction: column;
-    text-align:center;
+    text-align:left;
     overflow: scroll;
+    padding: 1rem;
   }
 
 dl {
-  text-align: center;
+  text-align: left;
   justify-content: space-between;
-  padding: 1rem;
+  padding: 1rem 0;
 }
 dt {
-  padding: 1rem 0;
+  padding: .3rem 0;
 }
 
 h1 {
-  padding: 1rem;
-  margin: 0 auto;
+  padding: 1rem 0; 
 }
 a{ 
-    padding: 1rem;  
-    margin: auto;
-}
-ul{
-    width: 100%;
-    text-align: center;
-    margin-left:38% ;
-    list-style: none;
+    padding: 1rem 0; 
+     
 }
 @media screen and (min-width: 1024px) {
   .contact{
@@ -81,7 +75,7 @@ ul{
   }
   h1 {
   
-  margin: 0 ;
+  text-align: left;
 }
 a{ 
     padding: 1rem 0;  
@@ -89,14 +83,18 @@ a{
 }
   .info {
     text-align: left;
-    padding: 1rem;
+    padding: 1rem 0;
   }
   .content {
     display: flex;
     flex-flow: column;
   }
-  // h1 {
-  //   font-size: 24px;
-  // }
+  dl{
+    text-align: left;
+    padding: 0;
+  }
+  dt{
+    font-size: 20px;
+  }
 }
 </style>

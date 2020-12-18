@@ -76,7 +76,7 @@ button {
   i {
     margin: 0.3rem;
      &:hover{
-      color: yellow;
+      color:#ff9900;
   }
   }
 }
@@ -103,7 +103,7 @@ button {
       padding: 0.4rem 0;
     }
     h2 {
-      font-size: 16px;
+      font-size: 20px;
     }
   }
   .hamburger {
@@ -113,7 +113,11 @@ button {
     margin: 0 9rem;
     position: relative;
     a {
+      padding: 1rem;
       color: #fff;
+    }
+    i{
+    font-size: 28px;
     }
   }
 }

@@ -7,7 +7,7 @@
           <li><b>Namn:</b> Brf Lödkolven 2</li>
           <li><b>Organisationsnummer:</b> 716419-1855</li>
           <li><b>Antal lägenheter:</b> 31</li>
-          <li><b>Tv & Internet:</b> Bredband via Ownit, TV Ja Bas utbud.</li>
+          <li><b>Tv & Internet:</b> Bredband via Ownit, TV Ja Basutbud.</li>
       </ul>
 <h2>Andrahandsuthyrning</h2>
 <p>Om du vill hyra ut din bostadsrätt i andra hand behöver du först skicka in en ansökan till föreningen. <a href="mailto:brflodkolven2@gmail.com?Subject=Some%20subject">Kontakta styrelsen</a> så får du ett ansökningsformulär att fylla i.</p>
@@ -51,14 +51,14 @@ export default {
     display: flex;
     flex-direction: column;
     padding: 1rem;
-    text-align: center;
+    text-align: left;
     overflow: scroll;
     h2{
-        margin: auto;
+        
         padding: 1rem 0;
     }
     p{
-        margin: auto;
+        
         padding: 1rem 0 0 0;
     }
     a{

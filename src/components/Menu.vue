@@ -4,7 +4,7 @@
       <router-link to="/" @click.native="$store.dispatch('toggleMenu')">Start</router-link>
       <router-link to="/Info" @click.native="$store.dispatch('toggleMenu')">Info</router-link>
       <router-link to="/Uthyrning" @click.native="$store.dispatch('toggleMenu')">Andrahandsuthyrning</router-link>
-      <router-link to="/Infomaklare" @click.native="$store.dispatch('toggleMenu')">Info för Mäklare</router-link>
+      <router-link to="/Infomaklare" @click.native="$store.dispatch('toggleMenu')">Info för mäklare</router-link>
       <router-link to="/Contact" @click.native="$store.dispatch('toggleMenu')">Kontakt</router-link>
     </div>
   </div>
@@ -34,7 +34,7 @@ export default {
     display: block;
   }
   :hover{
-      color: yellow;
+      color: #ff9900;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -45,6 +45,10 @@ export default {
   }
   a {
     color: #fff;
+    font-size: 28px;
+    &:active{
+      color: #ff9900;
+    }
   }
-}
+}  
 </style>
