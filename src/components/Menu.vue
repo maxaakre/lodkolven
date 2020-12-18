@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="menu" :class="{ toggle: isMenuOpen }">
-      <router-link to="/" @click.native="$store.dispatch('toggleMenu')">Start</router-link>
+      <router-link to="/" tabindex="0" @click.native="$store.dispatch('toggleMenu')">Start</router-link>
       <router-link to="/Info" @click.native="$store.dispatch('toggleMenu')">Info</router-link>
       <router-link to="/Uthyrning" @click.native="$store.dispatch('toggleMenu')">Andrahandsuthyrning</router-link>
       <router-link to="/Infomaklare" @click.native="$store.dispatch('toggleMenu')">Info för mäklare</router-link>

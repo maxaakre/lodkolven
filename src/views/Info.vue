@@ -2,13 +2,12 @@
 <div class="wrapper">
     <h1>Info!</h1>
     <p><b>Information om Stadgar hittar du under fliken info till mäklare.</b></p>
-    <p>Om du ska hyra ut din lägenhet kolla under fliken andrahandsthyrning innan du funderar på det!</p>
-    <router-link to="/Uthyrning">Andrahandsuthyrning</router-link>
+    <p>Om du ska hyra ut din lägenhet kolla under fliken <router-link to="/Uthyrning">andrahandsuthyrning</router-link> innan du funderar på det!</p>
     <p><a href="mailto:brflodkolven2@gmail.com?Subject=Some%20subject">Maila</a> om ni tycker det saknas något eller har förslag!</p>
     <h2>Om olycka inträffat med din lägenhet</h2>
-    <p>kontakta alltid styrelsen och 112 om det behövs</p>
-    <h2>Om hiss stannat</h2>
-    <p>kontakta Hissen AB i vårat granhus om du fastnat i hissen och styrelsen om det bara är ett litet problem</p>
+    <p>Kontakta alltid styrelsen och 112 om det behövs.</p>
+    <h2>Om hiss stannat!</h2>
+    <p>Kontakta Hissen AB i grannhuset om du fastnat i hissen och styrelsen om det bara är ett litet problem.</p>
     <a href="tel:08-6184848">08-618 48 48</a>
 </div>
 </template>
