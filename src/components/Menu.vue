@@ -46,8 +46,10 @@ export default {
   a {
     color: #fff;
     font-size: 28px;
+    text-decoration: none;
     &:active{
       color: #ff9900;
+      text-decoration: underline;
     }
   }
 }  

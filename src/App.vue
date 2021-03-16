@@ -39,8 +39,8 @@ export default {
  }
 }
 body {
-  font-family: Roboto, Helvetica, sans-serif;
-  background-color: #f2f2f2;
+  font-family: 'Inter', sans-serif;
+  background-color: #dae1e2;
 }
 
 .grid {
@@ -66,6 +66,7 @@ h2 {
   #app{
     p,li{
     font-size:24px ;
+    outline: none;
   }
   }
 }
